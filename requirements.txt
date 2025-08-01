@@ -1,0 +1,26 @@
+# Core for LLMOps and RAG
+langchain
+langchain-google-genai # Optional: if you're using Google GenAI
+google-generativeai # Optional: if you're using Google Generative AI
+
+tiktoken         # For token counting
+sentence-transformers  # For embeddings (alternative to OpenAI embeddings)
+
+# PDF and DOCX loaders
+unstructured     # For parsing structured PDFs
+pillow-heif
+python-docx      # For reading .docx files
+PyMuPDF          # PDF backend used by unstructured
+
+# Vector Store (choose one)
+faiss-cpu        # Lightweight and local (good default)
+
+# Optional but useful
+python-dotenv    # For managing API keys securely
+langchain-community
+
+streamlit  # For building web apps
+streamlit-chat  # For chat interfaces in Streamlit
+
+
+
